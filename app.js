@@ -1,7 +1,7 @@
 const app = require('express')();
 const PORT = process.env.PORT || 3000;
 app.get("", (req, res) => {
-    res.sendile('index.html');
+    res.sendfile('index.html');
 });
 app.listen(PORT, () => {
     console.log('App upt port ${PORT}');
