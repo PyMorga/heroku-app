@@ -4,5 +4,5 @@ app.get("", (req, res) => {
     res.sendfile('index.html');
 });
 app.listen(PORT, () => {
-    console.log('App upt port ${PORT}');
+    console.log('The app is up at port ${PORT}');
 });
